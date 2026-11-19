@@ -1,0 +1,26 @@
+{
+  "name": "purpzie.utils",
+  "displayName": "Purpzie's Utilities",
+  "version": "1.0.0",
+	"author": {
+    "name": "Purpzie"
+  },
+  "unity": "2022.3",
+  "description": "A collection of scripts, prefabs, and tools for VRChat.",
+  "url": "https://github.com/Purpzie/VRCUtils",
+	"documentationUrl": "https://github.com/Purpzie/VRCUtils",
+	"changelogUrl": "https://github.com/Purpzie/VRCUtils/releases",
+  "license": "GPL-3.0-only",
+  "dependencies": {},
+  "gitDependencies": {},
+  "vpmDependencies": {
+		"com.vrchat.base": ">=3.10.6 <4.0.0",
+		"com.vrchat.avatars": ">=3.10.6 <4.0.0"
+	},
+  "legacyFolders": {
+		"Assets\\Purpzie\\Convert Jerry FT": "99e0c95af948c334f99d3124ea52d875",
+		"Assets\\Purpzie\\Util\\Realistic Poiyomi Preset": "162dc1001fe6a4d4f80ae8f4bf675217"
+	},
+  "legacyFiles": {},
+	"hideInEditor": false
+}

@@ -1,0 +1,1239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3123349923076261175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6447121014848001118}
+  m_Layer: 0
+  m_Name: Face Tracking (SRanipal)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6447121014848001118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123349923076261175}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7076907911719835316}
+  - {fileID: 8764368116280727323}
+  - {fileID: 7729753457519743484}
+  - {fileID: 2005471943418217224}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6700887807428970567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7076907911719835316}
+  - component: {fileID: 309059499256234436}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7076907911719835316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6700887807428970567}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6447121014848001118}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &309059499256234436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6700887807428970567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1475.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5927073853357686840
+  references:
+    version: 2
+    RefIds:
+    - rid: 5927073853357686840
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers: []
+        menus: []
+        prms: []
+        smoothedPrms: []
+        globalParams: []
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        overwriteLocomotion: 1
+        rewriteBindings: []
+        allowMissingAssets: 0
+        injectParams: []
+        faceTrackingMeshes:
+        - useBone: 0
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: Body
+        faceTrackingBlendshapeSets:
+        - setName: Eyes
+          setWeight: 1
+          faceTrackingBlendshapeNames:
+          - Eye_Right_Right
+          - Eye_Right_Left
+          - Eye_Right_Up
+          - Eye_Right_Down
+          - Eye_Left_Left
+          - Eye_Left_Right
+          - Eye_Left_Up
+          - Eye_Left_Down
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Eye_Right_Squeeze
+          - Eye_Left_Squeeze
+          - Eye_Right_Wide
+          - Eye_Left_Wide
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          faceTrackingBlendshapeMultipliers:
+          - 1.428571
+          - 1.428571
+          - 1.428571
+          - 1.428571
+          - 1.428571
+          - 1.428571
+          - 1.428571
+          - 1.428571
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          visemeBlendshapeNames:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          visemeBlendshapeMultipliers:
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+        - setName: Lips
+          setWeight: 1
+          faceTrackingBlendshapeNames:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Cheek_Puff_Right
+          - Cheek_Puff_Left
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Tongue_Up
+          - Tongue_Down
+          - Tongue_Left
+          - Tongue_Right
+          - Tongue_Roll
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          faceTrackingBlendshapeMultipliers:
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          visemeBlendshapeNames:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          visemeBlendshapeMultipliers:
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+          - 1
+        faceTrackingParameterBehaviors:
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Jaw_Open
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (JawOpen * (1 - TongueOut / 4) + TongueOut / 4) * (1
+            - MouthClosed)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Jaw_Forward
+          weightBlendSetName: Lips
+          inputTrackingKeys: 270000002b000000
+          inputTrackingKeyNames:
+          - JawForward
+          - MouthClosed
+          inputInverted: 0001
+          combineMode: 3
+          customExpression: 
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Jaw_Left
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: JawLeft * (1 - abs((MouthUpperRight + MouthLowerRight
+            - MouthUpperLeft - MouthLowerLeft) / 4))
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Jaw_Right
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: JawRight * (1 - abs((MouthUpperRight + MouthLowerRight
+            - MouthUpperLeft - MouthLowerLeft) / 4))
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Sad_Left
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: max(0, max(MouthFrownLeft, MouthStretchLeft) - MouthCornerPullLeft
+            * 0.8 - MouthCornerSlantLeft * 0.2) * (1 - (MouthUpperLeft + MouthLowerLeft)
+            / 2)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Sad_Right
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: max(0, max(MouthFrownRight, MouthStretchRight) - MouthCornerPullRight
+            * 0.8 - MouthCornerSlantRight * 0.2) * (1 - (MouthUpperRight + MouthLowerRight)
+            / 2)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Pout
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: ((LipPuckerUpperRight + LipPuckerUpperLeft + LipPuckerLowerRight
+            + LipPuckerLowerLeft) / 4) * (1 - ((LipFunnelUpperLeft + LipFunnelUpperRight
+            + LipFunnelLowerLeft + LipFunnelLowerRight) / 4))
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Ape_Shape
+          weightBlendSetName: Lips
+          inputTrackingKeys: 2b00000024000000
+          inputTrackingKeyNames:
+          - MouthClosed
+          - JawOpen
+          inputInverted: 0000
+          combineMode: 3
+          customExpression: 
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Eye_Left_Constrict
+          weightBlendSetName: Eyes
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (EyeWideLeft + EyeWideRight + EyeConstrictLeft + EyeConstrictRight)
+            / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Eye_Right_Constrict
+          weightBlendSetName: Eyes
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (EyeWideLeft + EyeWideRight + EyeConstrictLeft + EyeConstrictRight)
+            / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Eye_Left_Dilation
+          weightBlendSetName: Eyes
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (MouthFrownLeft + MouthFrownRight - EyeWideLeft - EyeWideRight
+            + EyeDilationLeft + EyeDilationRight) / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Eye_Right_Dilation
+          weightBlendSetName: Eyes
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (MouthFrownLeft + MouthFrownRight - EyeWideLeft - EyeWideRight
+            + EyeDilationLeft + EyeDilationRight) / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Lower_Overlay
+          weightBlendSetName: Lips
+          inputTrackingKeys: 510000002b000000
+          inputTrackingKeyNames:
+          - MouthRaiserLower
+          - MouthClosed
+          inputInverted: 0001
+          combineMode: 3
+          customExpression: 
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Upper_Up_Right
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: MouthUpperUpRight + ((LipFunnelUpperLeft + LipFunnelUpperRight
+            + LipFunnelLowerLeft + LipFunnelLowerRight) / 4) * (1 - MouthUpperUpRight)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Upper_Up_Left
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: MouthUpperUpLeft + ((LipFunnelUpperLeft + LipFunnelUpperRight
+            + LipFunnelLowerLeft + LipFunnelLowerRight) / 4) * (1 - MouthUpperUpLeft)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Lower_DownLeft
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (MouthLowerDownLeft + MouthLowerDownRight) / 2 + ((LipFunnelUpperLeft
+            + LipFunnelUpperRight + LipFunnelLowerLeft + LipFunnelLowerRight) / 4)
+            * (1 - (MouthLowerDownLeft + MouthLowerDownRight) / 2)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Lower_DownRight
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (MouthLowerDownLeft + MouthLowerDownRight) / 2 + ((LipFunnelUpperLeft
+            + LipFunnelUpperRight + LipFunnelLowerLeft + LipFunnelLowerRight) / 4)
+            * (1 - (MouthLowerDownLeft + MouthLowerDownRight) / 2)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Lower_Overturn
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (LipFunnelUpperLeft + LipFunnelUpperRight + LipFunnelLowerLeft
+            + LipFunnelLowerRight) / 4
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Upper_Overturn
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (LipFunnelUpperLeft + LipFunnelUpperRight + LipFunnelLowerLeft
+            + LipFunnelLowerRight) / 4
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Upper_Inside
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (LipSuckUpperLeft + LipSuckUpperRight) / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Lower_Inside
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (LipSuckLowerRight + LipSuckLowerLeft) / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Smile_Left
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: MouthCornerPullLeft * 0.8 + MouthCornerSlantLeft * 0.2
+            - max(MouthFrownLeft, MouthStretchLeft)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Smile_Right
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: MouthCornerPullRight * 0.8 + MouthCornerSlantRight *
+            0.2 - max(MouthFrownRight, MouthStretchRight)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Lower_Left
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (MouthUpperLeft + MouthLowerLeft) / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Upper_Left
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (MouthUpperLeft + MouthLowerLeft) / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Upper_Right
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (MouthUpperRight + MouthLowerRight) / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Mouth_Lower_Right
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (MouthUpperRight + MouthLowerRight) / 2
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Cheek_Suck
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (CheekSuckLeft + CheekSuckRight) / 1.4
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Tongue_LongStep1
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: TongueOut * 2 * (1 - (LipFunnelUpperLeft + LipFunnelUpperRight
+            + LipFunnelLowerLeft + LipFunnelLowerRight) / 2.8)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Tongue_LongStep2
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (TongueOut - 0.5) * 2 * (1 - (LipFunnelUpperLeft + LipFunnelUpperRight
+            + LipFunnelLowerLeft + LipFunnelLowerRight) / 2.8)
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Tongue_UpRight_Morph
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (TongueUp * TongueRight) / 0.7
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Tongue_UpLeft_Morph
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (TongueUp * TongueLeft) / 0.7
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Tongue_DownRight_Morph
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (TongueDown * TongueRight) / 0.7
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Tongue_DownLeft_Morph
+          weightBlendSetName: Lips
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: (TongueDown * TongueLeft) / 0.7
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Eye_Left_Blink
+          weightBlendSetName: Eyes
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: EyeClosedLeft * (1 + EyeSquintLeft / 3) + EyeSquintLeft
+            * 0.666
+        - targetMode: 2
+          outputParameterName: 
+          targetBlendSetName: 
+          targetBlendshapeName: Eye_Right_Blink
+          weightBlendSetName: Eyes
+          inputTrackingKeys: 
+          inputTrackingKeyNames: []
+          inputInverted: 
+          combineMode: 4
+          customExpression: EyeClosedRight * (1 + EyeSquintRight / 3) + EyeSquintRight
+            * 0.666
+        visemeDampenMode: 0
+        visemeDampenAmount: 1
+        injectSpsDepthParam: 
+        injectSpsVelocityParam: 
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
+--- !u!1001 &1391019218765146459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6447121014848001118}
+    m_Modifications:
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979575861919292690, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+        type: 3}
+      propertyPath: m_Name
+      value: Facial Expressions Toggle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2c73d48ee57eae4f903fa55d9cddd28, type: 3}
+--- !u!4 &2005471943418217224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 619590776850508371, guid: f2c73d48ee57eae4f903fa55d9cddd28,
+    type: 3}
+  m_PrefabInstance: {fileID: 1391019218765146459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5304802613322547276
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6447121014848001118}
+    m_Modifications:
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736623792732403912, guid: 92aa95f6735786f44a2c32cc26740bfe,
+        type: 3}
+      propertyPath: m_Name
+      value: Animator Compatibility
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92aa95f6735786f44a2c32cc26740bfe, type: 3}
+--- !u!4 &7729753457519743484 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2511856364660740528, guid: 92aa95f6735786f44a2c32cc26740bfe,
+    type: 3}
+  m_PrefabInstance: {fileID: 5304802613322547276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8954649971098549582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6447121014848001118}
+    m_Modifications:
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948659240809208783, guid: 194646c49f96e7946968ef04227844bb,
+        type: 3}
+      propertyPath: m_Name
+      value: Eye Rotation Fix
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 194646c49f96e7946968ef04227844bb, type: 3}
+--- !u!4 &8764368116280727323 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 424469667091212885, guid: 194646c49f96e7946968ef04227844bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 8954649971098549582}
+  m_PrefabAsset: {fileID: 0}
