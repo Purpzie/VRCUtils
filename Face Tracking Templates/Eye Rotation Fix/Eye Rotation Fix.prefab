@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
+  vrcfuryVersion: 1.1491.0
   somethingIsBroken: 0
   config:
     features: []
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
+  vrcfuryVersion: 1.1491.0
   somethingIsBroken: 0
   config:
     features: []
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
+  vrcfuryVersion: 1.1491.0
   somethingIsBroken: 0
   config:
     features: []
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
+  vrcfuryVersion: 1.1491.0
   somethingIsBroken: 0
   config:
     features: []
@@ -562,7 +562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
+  vrcfuryVersion: 1.1491.0
   somethingIsBroken: 0
   config:
     features: []
@@ -648,7 +648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
+  vrcfuryVersion: 1.1491.0
   somethingIsBroken: 0
   config:
     features: []
@@ -723,7 +723,6 @@ Transform:
   - {fileID: 3012214886308517323}
   - {fileID: 2344110695197411260}
   - {fileID: 4827865586370071826}
-  - {fileID: 2756627310741244924}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6396994150878026237
@@ -740,7 +739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
+  vrcfuryVersion: 1.1491.0
   somethingIsBroken: 0
   config:
     features: []
@@ -758,8 +757,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: b4aad5764ce79a64b881de3b4240e6a5|Assets/Purpzie/ConvertJerryFT/Eye
-              Rotation Fix/Eye Fix FX.controller
+            id: b4aad5764ce79a64b881de3b4240e6a5|Packages/purpzie.utils/Face Tracking
+              Templates/Eye Rotation Fix/Eye Fix FX.controller
             objRef: {fileID: 9100000, guid: b4aad5764ce79a64b881de3b4240e6a5, type: 2}
           type: 5
         menus: []
@@ -767,7 +766,6 @@ MonoBehaviour:
         smoothedPrms: []
         globalParams:
         - '*'
-        allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
         rootObjOverride: {fileID: 0}
@@ -814,6 +812,7 @@ MonoBehaviour:
         visemeDampenAmount: 1
         injectSpsDepthParam: 
         injectSpsVelocityParam: 
+        allNonsyncedAreGlobal: 0
         controller:
           version: 1
           fileID: 0
@@ -850,7 +849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
+  vrcfuryVersion: 1.1491.0
   somethingIsBroken: 0
   config:
     features: []
@@ -890,152 +889,3 @@ MonoBehaviour:
         fallbackBones: 
         keepBoneOffsets2: 0
         linkMode: 4
---- !u!1 &8556675373506802731
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2756627310741244924}
-  - component: {fileID: 2286310700446576967}
-  - component: {fileID: 5777653332521150538}
-  m_Layer: 0
-  m_Name: Animation Editor
-  m_TagString: EditorOnly
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2756627310741244924
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8556675373506802731}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 424469667091212885}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2286310700446576967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8556675373506802731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 842403606652780585
-  references:
-    version: 2
-    RefIds:
-    - rid: 842403606652780585
-      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 3
-        name: 
-        state:
-          actions:
-          - rid: 842403606652780586
-        saved: 0
-        slider: 0
-        sliderInactiveAtZero: 0
-        securityEnabled: 0
-        defaultOn: 0
-        includeInRest: 0
-        exclusiveOffState: 0
-        enableExclusiveTag: 0
-        exclusiveTag: 
-        resetPhysbones: []
-        hasExitTime: 0
-        enableIcon: 0
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        enableDriveGlobalParam: 0
-        driveGlobalParam: 
-        separateLocal: 0
-        localState:
-          actions: []
-        hasTransition: 0
-        transitionStateIn:
-          actions: []
-        transitionStateOut:
-          actions: []
-        transitionTimeIn: 0
-        transitionTimeOut: 0
-        localTransitionStateIn:
-          actions: []
-        localTransitionStateOut:
-          actions: []
-        localTransitionTimeIn: 0
-        localTransitionTimeOut: 0
-        simpleOutTransition: 1
-        defaultSliderValue: 0
-        useGlobalParam: 0
-        globalParam: 
-        holdButton: 0
-        invertRestLogic: 0
-        expandIntoTransition: 1
-    - rid: 842403606652780586
-      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 0
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        clip:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 0abad2ae8cae3ad48b9cb3c499ae8c2c|Assets/Purpzie/ConvertJerryFT/Eye
-            Fix/RightNeutral.anim
-          objRef: {fileID: 7400000, guid: 0abad2ae8cae3ad48b9cb3c499ae8c2c, type: 2}
---- !u!114 &5777653332521150538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8556675373506802731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1460.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 842403606652780584
-  references:
-    version: 2
-    RefIds:
-    - rid: 842403606652780584
-      type: {class: DeleteDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 0
