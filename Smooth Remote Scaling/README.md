@@ -1,4 +1,7 @@
 # Smooth Remote Scaling
+> [!WARNING]
+> This is currently a bit broken, especially if you scale below default height. This is known and will be fixed eventually. In the meantime, if you have any issues, it can be toggled off.
+
 VRC only syncs your scale once every few seconds. This VRCFury prefab forcefully syncs and applies your local scale so that everyone else sees it change smoothly and immediately.
 
 - 16 synced bits
