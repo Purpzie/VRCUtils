@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1929173056206232732}
   - component: {fileID: 7984326589170563069}
-  - component: {fileID: 3552513752506630157}
+  - component: {fileID: 7416383706874863751}
   - component: {fileID: 5918758208711006303}
   m_Layer: 0
   m_Name: Smooth Remote Scaling
@@ -58,7 +58,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5844360003344618835}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1493.0
+  vrcfuryVersion: 1.1498.0
   somethingIsBroken: 0
   config:
     features: []
@@ -161,7 +161,7 @@ MonoBehaviour:
         removePrefixes: []
         addPrefix: 
         useSecurityForToggle: 0
---- !u!114 &3552513752506630157
+--- !u!114 &7416383706874863751
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,37 +175,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1493.0
+  vrcfuryVersion: 1.1498.0
   somethingIsBroken: 0
   config:
     features: []
   content:
-    rid: 5927073962998890550
+    rid: 5927074077820059670
   references:
     version: 2
     RefIds:
-    - rid: 5927073962998890550
+    - rid: 5927074077820059670
       type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 0
         action:
           actions:
-          - rid: 5927073962998890552
-    - rid: 5927073962998890552
-      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
+          - rid: 5927074077820059673
+    - rid: 5927074077820059673
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 1
         desktopActive: 0
         androidActive: 0
         localOnly: 0
         remoteOnly: 0
-        clip:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 4a3af56677c23554d9dc05e08b6f4d71|Packages/purpzie.utils/Smooth Remote
-            Scaling/Files/Apply During Upload.anim
-          objRef: {fileID: 7400000, guid: 4a3af56677c23554d9dc05e08b6f4d71, type: 2}
+        obj: {fileID: 5844360003344618835}
+        mode: 1
 --- !u!114 &5918758208711006303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,7 +359,7 @@ MonoBehaviour:
   IsActive: 1
   GlobalWeight: 1
   TargetTransform: {fileID: 0}
-  SmoothingFactor: 0.1
+  SmoothingFactor: 0
   SolveInLocalSpace: 0
   FreezeToWorld: 0
   RebakeOffsetsWhenUnfrozen: 0
@@ -505,7 +500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsActive: 1
-  GlobalWeight: 1
+  GlobalWeight: 0
   TargetTransform: {fileID: 0}
   SmoothingFactor: 0
   SolveInLocalSpace: 0

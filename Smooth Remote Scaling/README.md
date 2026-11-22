@@ -1,21 +1,14 @@
 # Smooth Remote Scaling
-> [!WARNING]
-> This is currently a bit broken, especially if you scale below default height. This is known and will be fixed eventually. In the meantime, if you have any issues, it can be toggled off.
-
 VRC only syncs your scale once every few seconds. This VRCFury prefab forcefully syncs and applies your local scale so that everyone else sees it change smoothly and immediately.
 
-- 16 synced bits
+- 17 synced bits
 - 3 constraints
 - 1 animator layer
 
 ## FAQ
 
 #### Does it work with \<insert scaling system here>?
-All this prefab does is scale constrain your hip bone based on the `ScaleFactor` parameter. Anything that only controls your height through [OSC](https://docs.vrchat.com/docs/osc-avatar-scaling) will work.
+All this prefab does is scale constrain your hip bone based on the ScaleFactor parameter. Anything that only controls your height through [OSC](https://docs.vrchat.com/docs/osc-avatar-scaling) will work.
 
 #### It's not working...
-There are a few situations where this system will turn off on purpose:
-- `ScaleFactor` is bigger than 256, which is too large to sync.
-- You entered a [station](https://creators.vrchat.com/worlds/components/vrc_station) at any point and then became tiny (`ScaleFactor` < 1).
-  - It'll start working again if you scale back up or reload the avatar.
-  - You'd be the wrong scale entirely if it stayed on. Stations are extremely cursed. Thanks VRC.
+Smoothing turns off if ScaleFactor > 256 because it can't sync a number that big. If you're smaller than 256 times your avatar's default height, and it's still acting incorrect, please make a bug report.
