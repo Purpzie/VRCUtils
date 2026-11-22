@@ -82,7 +82,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1475.0
+  vrcfuryVersion: 1.1493.0
   somethingIsBroken: 0
   config:
     features: []
@@ -100,22 +100,29 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 7283443d4dafc3e4e93447b75144ed47|Assets/Purpzie/Smooth Remote Scaling/Files/SRS
-              FX.controller
+            id: 7283443d4dafc3e4e93447b75144ed47|Packages/purpzie.utils/Smooth Remote
+              Scaling/Files/SRS FX.controller
             objRef: {fileID: 9100000, guid: 7283443d4dafc3e4e93447b75144ed47, type: 2}
           type: 5
-        menus: []
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: f931c9e8951fdb64b93b8d1d18145a68|Packages/purpzie.utils/Smooth Remote
+              Scaling/Files/SRS Menu.asset
+            objRef: {fileID: 11400000, guid: f931c9e8951fdb64b93b8d1d18145a68, type: 2}
+          prefix: 
         prms:
         - parameters:
             version: 1
             fileID: 0
             guid: 
-            id: 138a16d3a5cc5a248a6ea8fde2268193|Assets/Purpzie/Smooth Remote Scaling/Files/SRS
-              Params.asset
+            id: 138a16d3a5cc5a248a6ea8fde2268193|Packages/purpzie.utils/Smooth Remote
+              Scaling/Files/SRS Params.asset
             objRef: {fileID: 11400000, guid: 138a16d3a5cc5a248a6ea8fde2268193, type: 2}
         smoothedPrms: []
         globalParams: []
-        allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
         rootObjOverride: {fileID: 0}
@@ -131,6 +138,7 @@ MonoBehaviour:
         visemeDampenAmount: 1
         injectSpsDepthParam: 
         injectSpsVelocityParam: 
+        allNonsyncedAreGlobal: 0
         controller:
           version: 1
           fileID: 0
@@ -167,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1475.0
+  vrcfuryVersion: 1.1493.0
   somethingIsBroken: 0
   config:
     features: []
@@ -195,8 +203,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 4a3af56677c23554d9dc05e08b6f4d71|Assets/Purpzie/Smooth Remote Scaling/Files/Apply
-            During Upload.anim
+          id: 4a3af56677c23554d9dc05e08b6f4d71|Packages/purpzie.utils/Smooth Remote
+            Scaling/Files/Apply During Upload.anim
           objRef: {fileID: 7400000, guid: 4a3af56677c23554d9dc05e08b6f4d71, type: 2}
 --- !u!114 &5918758208711006303
 MonoBehaviour:
